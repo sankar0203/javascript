@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while-rev</title>
+</head>
+<body>
+    <h2>while loop</h2>
+    <script>
+        var num=123;
+        var sum=0;
+        var rev=0;
+        while(num>=1){
+            x=num%10;
+            sum=sum+x;
+            rev=(rev*10)+x;
+            num=parseInt(num/10);
+        }
+        document.write("The sum is "+sum+" and reverse is "+rev)
+    </script>
+</body>
+</html>
